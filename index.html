@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{Título}</title>
+    <meta name="description" content="{Descripción}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{url}">
+    <meta property="og:title" content="{Título}">
+    <meta property="og:description" content="{Descripción}">
+    <meta property="og:image" content="{Imagen}">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{url}">
+    <meta property="twitter:title" content="{Título}">
+    <meta property="twitter:description" content="{Descripción}">
+    <meta property="twitter:image" content="{Imagen}">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Material+Icons&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="contenedor header__contenedor flex-center">
+
+            <div class="header__logo">
+                <a href="./" class="header__logo__enlace">
+                    <img src="img/logo.png" alt="Logo" class="header__logo__img">
+                </a>
+            </div>
+            
+            <div class="header__varios flex-center">
+                <nav class="header__nav es-pantalla">
+                    <a href="#">Entrenamiento</a>
+                    <a href="#">Nutrición</a>
+                    <a href="#">Otros</a>
+                </nav>
+                
+                <div class="header__acciones flex-center right">
+                    <div class="header__acciones__buscador  flex-center right">
+                        <input type="text" id="buscador" placeholder="Buscar">
+                        <label for="buscador">
+                            <span class="material-icons">search</span>
+                        </label>
+                    </div>
+
+                    <div class="header__acciones__menu">
+                        <span class="material-icons">menu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header><!-- header -->
+    
+    <!-- nav movil -->
+    <nav class="menu-movil ocultar-menu-movil">
+        <div class="contenedor">
+ 
+            <div class="menu-movil__header flex-center">
+                <div class="menu-movil__header__logo">
+                    <img src="img/logo.png" alt="Logo" class="header__logo__img">
+                </div>
+                
+                <div class="menu-movil__header__cerrar">
+                    <span class="material-icons">close</span>
+                </div>
+            </div>
+
+            <div class="menu-movil__enlaces">
+                <a href="#">Entrenamiento</a>
+                <a href="#">Nutrición</a>
+                <a href="#">Otros</a>
+            </div>
+
+        </div>
+    </nav><!-- nav movil -->
+    
+    <!-- Banner -->
+    <section class="banner margen-header-fixed">
+        <div class="contenedor">
+            <div class="banner__llamado llamado">
+                <h3 class="llamado__titulo size-1">CARDIO PRO</h3>
+                <h5 class="llamado__subtitulo">Nivel avanzado</h5>
+                <p class="llamado__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolores vitae laudantium laboriosam aut, eligendi excepturi asperiores iusto modi corporis et omnis, eaque molestiae quidem libero facere dicta cupiditate fugiat?</p>
+                <div class="llamado__botones flex-center">
+                    <a href="./clase.html" class="llamado__boton ver">Ver ahora</a>
+                    <button class="llamado__boton agregar">Agregar Favoritos</button>
+                </div>
+            </div>
+        </div>
+    </section><!-- Banner -->
+
+    <!-- Tendencias -->
+    <section class="tendencias mostrador">
+        <div class="contenedor-medio">
+            <h2 class="size-1 mostrador__titulo">TENDENCIAS</h2>
+        </div>
+
+        <div class="swiper-container slider-1">
+            <div class="swiper-wrapper">
+                <!-- Slider -->
+                <div class="swiper-slide activo">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/hayley-kim-design-eot-ka5dM7Q-unsplash.jpg" alt="Tendencias Imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/hayley-kim-design-eot-ka5dM7Q-unsplash.jpg" alt="Tendencias Imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/hayley-kim-design-eot-ka5dM7Q-unsplash.jpg" alt="Tendencias Imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/hayley-kim-design-eot-ka5dM7Q-unsplash.jpg" alt="Tendencias Imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/hayley-kim-design-eot-ka5dM7Q-unsplash.jpg" alt="Tendencias Imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/hayley-kim-design-eot-ka5dM7Q-unsplash.jpg" alt="Tendencias Imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+                
+            </div>
+        </div>
+    </section>
+    <!-- Tendencias -->
+
+
+    <!-- principiantes -->
+    <section class="principiantes mostrador">
+        <div class="contenedor-medio">
+            <h2 class="size-1 mostrador__titulo">PRINCIPIANTES</h2>
+        </div>
+
+        <div class="swiper-container slider-2">
+            <div class="swiper-wrapper">
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/nathan-dumlao-9bKVZ3IIff8-unsplash.jpg" alt="Principiantes imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/nathan-dumlao-9bKVZ3IIff8-unsplash.jpg" alt="Principiantes imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/nathan-dumlao-9bKVZ3IIff8-unsplash.jpg" alt="Principiantes imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/nathan-dumlao-9bKVZ3IIff8-unsplash.jpg" alt="Principiantes imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/nathan-dumlao-9bKVZ3IIff8-unsplash.jpg" alt="Principiantes imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/nathan-dumlao-9bKVZ3IIff8-unsplash.jpg" alt="Principiantes imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+                
+            </div>
+        </div>
+    </section>
+    <!-- principiantes -->
+
+
+    <!-- Mind and Body-->
+    <section class="body-mind mostrador">
+        <div class="contenedor-medio">
+            <h2 class="size-1 mostrador__titulo">BODY AND MIND</h2>
+        </div>
+
+        <div class="swiper-container slider-3">
+            <div class="swiper-wrapper">
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/logan-weaver-XCkc8-_s7FA-unsplash.jpg" alt="Body and Mind imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/logan-weaver-XCkc8-_s7FA-unsplash.jpg" alt="Body and Mind imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/logan-weaver-XCkc8-_s7FA-unsplash.jpg" alt="Body and Mind imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/logan-weaver-XCkc8-_s7FA-unsplash.jpg" alt="Body and Mind imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/logan-weaver-XCkc8-_s7FA-unsplash.jpg" alt="Body and Mind imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+
+                <!-- Slider -->
+                <div class="swiper-slide">
+                    <div class="mostrador-elemento">
+                        <div class="mostrador-elemento__img">
+                            <img src="img/logan-weaver-XCkc8-_s7FA-unsplash.jpg" alt="Body and Mind imagen">
+                        </div>
+                        <div class="mostrador-elemento__manto">
+                            <span class="material-icons">
+                                play_arrow
+                            </span>
+                        </div>
+                        <div class="mostrador-elemento__contenido">
+                            <div class="mostrador-elemento__contenido__pie flex-center">
+                                <div class="mostrador-elemento__contenido__datos">
+                                    <h3>CARDIO PRO</h3>
+                                    <h5>Nivel avanzado</h5>
+                                </div>
+                                <div class="mostrador-elemento__contenido__botones">
+                                    <a href="./clase.html" class="">Ver</a>
+                                    <button class=""> 
+                                            Favoritos 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Slider -->
+                
+            </div>
+        </div>
+    </section>
+    <!-- Mind and Body-->
+
+    <!-- Pie de página -->
+    <footer class="pie">
+        <div class="contenedor-medio pie-contendor">
+            <a href="#" class="pie__logo__enlace">
+                <img src="img/logo.png" alt="Logo" class="pie__logo__img">
+            </a>
+
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Pregruntas frecuentes</a>
+            <a href="#">Tratamiento de datos</a>
+        </div>
+    </footer>
+    <!-- Pie de página -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+
+        const activarSliderClick = (swiper, clickedSlide) => {
+            swiper.slides.forEach((element) => {
+                if(clickedSlide == element) {
+                    if( !element.classList.contains('activo') ) {
+                        element.classList.add('activo')
+                    }
+                } else if (element.classList.contains('activo')) {
+                    element.classList.remove('activo')
+                }
+            });
+        }
+
+
+        var swiper1 = new Swiper(".slider-1", {
+          autoplay: true,
+          width: 330,
+          spaceBetween: 10,
+          freeMode: true,
+          loop: true,  
+          loopedSlides: 7, 
+          watchOverflow: true, 
+          on: { 
+            click: function (swiper, evento) {
+                activarSliderClick(swiper, swiper.clickedSlide);
+            },
+          },
+          breakpoints: {
+            // when window width is >= 320px
+            398: { 
+                with: 398, 
+                spaceBetween: 30,
+            },
+          },
+        });
+
+
+        var swiper2 = new Swiper(".slider-2", {
+          autoplay: {
+              reverseDirection: true,
+          },
+          width: 330,
+          spaceBetween: 10,
+          freeMode: true,
+          loop: true,  
+          loopedSlides: 7, 
+          watchOverflow: true, 
+          on: { 
+            click: function (swiper, evento) {
+                activarSliderClick(swiper, swiper.clickedSlide);
+            },
+          },
+          breakpoints: {
+            // when window width is >= 320px
+            398: { 
+                with: 398, 
+                spaceBetween: 30,
+            },
+          },
+        });
+
+        var swiper3 = new Swiper(".slider-3", {
+          autoplay: true,
+          width: 330,
+          spaceBetween: 10,
+          freeMode: true,
+          loop: true,  
+          loopedSlides: 7, 
+          watchOverflow: true, 
+          on: { 
+            click: function (swiper, evento) {
+                activarSliderClick(swiper, swiper.clickedSlide);
+            },
+          },
+          breakpoints: {
+            // when window width is >= 320px
+            398: { 
+                with: 398, 
+                spaceBetween: 30,
+            },
+          },
+        });
+      </script>
+</body>
+</html>

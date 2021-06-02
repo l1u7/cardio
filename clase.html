@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{Título}</title>
+    <meta name="description" content="{Descripción}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{url}">
+    <meta property="og:title" content="{Título}">
+    <meta property="og:description" content="{Descripción}">
+    <meta property="og:image" content="{Imagen}">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{url}">
+    <meta property="twitter:title" content="{Título}">
+    <meta property="twitter:description" content="{Descripción}">
+    <meta property="twitter:image" content="{Imagen}">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Material+Icons&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="contenedor header__contenedor flex-center">
+
+            <div class="header__logo">
+                <a href="./" class="header__logo__enlace">
+                    <img src="img/logo.png" alt="Logo" class="header__logo__img">
+                </a>
+            </div>
+            
+            <div class="header__varios flex-center">
+                <nav class="header__nav es-pantalla">
+                    <a href="#">Entrenamiento</a>
+                    <a href="#">Nutrición</a>
+                    <a href="#">Otros</a>
+                </nav>
+                
+                <div class="header__acciones flex-center right">
+                    <div class="header__acciones__buscador  flex-center right">
+                        <input type="text" id="buscador" placeholder="Buscar">
+                        <label for="buscador">
+                            <span class="material-icons">search</span>
+                        </label>
+                    </div>
+
+                    <div class="header__acciones__menu">
+                        <span class="material-icons">menu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header><!-- header -->
+    
+    <!-- nav movil -->
+    <nav class="menu-movil ocultar-menu-movil">
+        <div class="contenedor">
+ 
+            <div class="menu-movil__header flex-center">
+                <div class="menu-movil__header__logo">
+                    <img src="img/logo.png" alt="Logo" class="header__logo__img">
+                </div>
+                
+                <div class="menu-movil__header__cerrar">
+                    <span class="material-icons">close</span>
+                </div>
+            </div>
+
+            <div class="menu-movil__enlaces">
+                <a href="#">Entrenamiento</a>
+                <a href="#">Nutrición</a>
+                <a href="#">Otros</a>
+            </div>
+
+        </div>
+    </nav><!-- nav movil --> 
+ 
+    <div class="contenedor-medio margen-header-fixed">
+
+        <div class="clase">
+            <!-- Imagen y nombre del curso -->
+            <div class="clase-presentacion">
+                <div class="clase-presentacion__llamado llamado">
+                    <h3 class="llamado__titulo size-1">CARDIO PRO</h3>
+                    <h5 class="llamado__subtitulo">Nivel avanzado</h5>
+                    <p class="llamado__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolores vitae laudantium laboriosam aut, eligendi excepturi asperiores iusto modi corporis et omnis, eaque molestiae quidem libero facere dicta cupiditate fugiat?</p>
+                    <div class="llamado__botones flex-center">
+                        <a href="#" class="llamado__boton ver">Agregar Favoritos</a>
+                    </div>
+                </div>
+            </div><!-- Imagen y nombre del curso -->
+
+            <div class="clase-contenido">
+
+                <!-- Temario -->
+                <div class="temario temario-1">
+                    <div class="temario__header flex-center">
+                        <div class="temario__header__nombre flex-center">
+                            <span class="material-icons temario__header__nombre__icono">
+                                add
+                            </span>
+                            <span>
+                                Introducción al curso
+                            </span>
+                        </div>
+
+                        <div class="temario__header__duracion">
+                            <span>Total de 50:00</span>
+                        </div>
+                    </div>
+
+                    <div class="temario__lista">
+                        <div class="temario__elemento__contenedor">
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    play_arrow
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Calentamiento básico</span>
+                                <span class="temario__lista__elemento__duracion">20:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Calentamiento básico</span>
+                                <span class="temario__lista__elemento__duracion">20:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Calentamiento básico</span>
+                                <span class="temario__lista__elemento__duracion">10:00</span>
+                            </div><!-- Temario elemento -->
+
+                        </div>
+                    </div>
+                </div><!-- Temario -->
+
+                <!-- Temario -->
+                <div class="temario temario-2">
+                    <div class="temario__header flex-center">
+                        <div class="temario__header__nombre flex-center">
+                            <span class="material-icons temario__header__nombre__icono">
+                                add
+                            </span>
+                            <span>
+                                Cardio primera semana
+                            </span>
+                        </div>
+
+                        <div class="temario__header__duracion">
+                            <span>Total de 50:00</span>
+                        </div>
+                    </div>
+
+                    <div class="temario__lista">
+                        <div class="temario__elemento__contenedor">
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Gym Workout for Beginners | Your 8-Move Exercise Plan</span>
+                                <span class="temario__lista__elemento__duracion">20:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Calentamiento básico</span>
+                                <span class="temario__lista__elemento__duracion">20:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Calentamiento básico</span>
+                                <span class="temario__lista__elemento__duracion">10:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Calentamiento básico</span>
+                                <span class="temario__lista__elemento__duracion">20:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Calentamiento básico</span>
+                                <span class="temario__lista__elemento__duracion">10:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Calentamiento básico</span>
+                                <span class="temario__lista__elemento__duracion">20:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Dumbbell lunge. This exercise benefits: glutes, quads, hamstrings.</span>
+                                <span class="temario__lista__elemento__duracion">10:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Barbell hip bridge. This exercise benefits: glutes.</span>
+                                <span class="temario__lista__elemento__duracion">20:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Calentamiento básico</span>
+                                <span class="temario__lista__elemento__duracion">10:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Calentamiento básico</span>
+                                <span class="temario__lista__elemento__duracion">20:00</span>
+                            </div><!-- Temario elemento -->
+
+                            <!-- Temario elemento -->
+                            <div class="temario__lista__elemento flex-center">
+                                <span class="material-icons temario__lista__elemento__icono">
+                                    lock
+                                </span>
+                                <span class="temario__lista__elemento__nombre">Calentamiento básico</span>
+                                <span class="temario__lista__elemento__duracion">10:00</span>
+                            </div><!-- Temario elemento -->
+                        </div>
+                    </div>
+                </div><!-- Temario -->
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="js/main.js"></script> 
+
+    <script>
+        temarioComponente(document.querySelector(".temario-1"));
+        temarioComponente(document.querySelector(".temario-2"));
+    </script>
+</body>
+</html>
