@@ -239,6 +239,7 @@ img {
 .mostrador-elemento { 
   position: relative;
   transition: all .3s;
+  overflow: hidden;
 } 
 .mostrador-elemento__img {
   position: relative;
